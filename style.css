@@ -24,3 +24,8 @@ img{
 a:hover{
 transform: scale(1.05);
 }
+
+.jogo:hover{
+cursor: pointer;
+transform: scale(1.05);
+}
