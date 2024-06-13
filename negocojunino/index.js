@@ -111,7 +111,7 @@ function reset() {
     var Results = document.querySelectorAll(`[data-codigo]`)
     Results.forEach(target => {
         target.classList.remove('Desativo');
-        target.classList.remove('Inclicavel');
+        target.classList.add('Inclicavel');
         target.classList.add('Ativo');
     });
 }
